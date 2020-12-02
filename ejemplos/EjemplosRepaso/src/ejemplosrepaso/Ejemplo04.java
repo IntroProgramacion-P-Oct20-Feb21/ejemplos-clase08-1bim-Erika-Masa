@@ -47,7 +47,7 @@ public class Ejemplo04 {
                 region = "Región Insular";
                 break;
         }
-         } while (contador <= 4);
+         
 
         System.out.printf("Usted seleccionó: %s\n", region);
     }
