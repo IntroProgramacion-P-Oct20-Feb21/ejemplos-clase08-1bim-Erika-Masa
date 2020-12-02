@@ -21,6 +21,7 @@ public class Ejemplo04 {
         String pais;
         String region = "";
         int tipoRegion;
+         do {
         System.out.println("Ingrese el tipo los siguientes datos para imprimir "
                 + "la región del Ecuador.\n"
                 + "1 para Región Sierra\n"
@@ -46,6 +47,7 @@ public class Ejemplo04 {
                 region = "Región Insular";
                 break;
         }
+         } while (contador <= 4);
 
         System.out.printf("Usted seleccionó: %s\n", region);
     }

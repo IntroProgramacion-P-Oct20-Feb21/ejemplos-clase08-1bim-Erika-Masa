@@ -15,6 +15,7 @@ public class Ejemplo03 {
     /**
      * @param args the command line arguments
      */
+   
     public static void main(String[] args) {
         // 
         Scanner entrada = new Scanner(System.in);
@@ -22,6 +23,7 @@ public class Ejemplo03 {
         String pais;
         String region = "";
         int tipoRegion;
+        
         System.out.println("Ingrese el tipo los siguientes datos para imprimir "
                 + "la región del Ecuador.\n"
                 + "1 para Región Sierra\n"
@@ -41,12 +43,15 @@ public class Ejemplo03 {
                 }else{
                     if (tipoRegion==4) {
                         region = "Región Insular";
+                       }else{  
+                            region = "Error, no existe region";
                     }
                 }
             }
         }
         
-        System.out.printf("Usted seleccionó: %s\n", region);
+        System.out.printf(" %s\n", region);
     }
-    
-}
+  
+        }
+
