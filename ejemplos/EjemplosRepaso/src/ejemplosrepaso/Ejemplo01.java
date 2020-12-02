@@ -7,7 +7,7 @@
         Ecuador.
  */
 package ejemplosrepaso;
-
+import java.util.Scanner;
 
 public class Ejemplo01 {
 
@@ -19,7 +19,15 @@ public class Ejemplo01 {
         Scanner entrada = new Scanner(System.in);
         String ciudad;
         String pais;
-        System.out.printf("%s%s", ciudad, pais);
+        System.out.println("ingrese la ciudad ");
+            ciudad = entrada.nextLine();
+        System.out.println("ingrese el pais  ");
+            pais = entrada.nextLine();
+                    
+                    
+                    
+                    
+        System.out.printf("%s,ciudad\n del pais:\n\t%s\n", ciudad, pais);
     }
     
 }
