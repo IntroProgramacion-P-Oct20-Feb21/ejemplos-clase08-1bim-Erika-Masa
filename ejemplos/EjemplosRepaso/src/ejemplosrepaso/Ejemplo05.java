@@ -34,17 +34,14 @@ public class Ejemplo05 {
             salir = entrada.nextLine();
             
             salir = salir.toLowerCase();
-            if(salir.equals("Si")){
-             } else {
-                 if(salir.equals("si")){
-                 } else {
-                     if(salir.equals("Si")){ 
+            if(salir.equals("Si")) 
+             
                      
                      bandera = true;
             }
                      }
                   }
      
-        }
+     
     
 

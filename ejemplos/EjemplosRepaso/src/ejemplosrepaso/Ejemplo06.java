@@ -14,11 +14,11 @@ package ejemplosrepaso;
 public class Ejemplo06 {
 
     public static void main(String[] args) {
-        int contador = 1;
+        int contador = 0;
         do {
             System.out.printf("%d\n", contador);
-            contador = contador + 4;
-        } while (contador <= 10);
+            contador = contador + 5;
+        } while (contador <= 30);
 
     }
 }
